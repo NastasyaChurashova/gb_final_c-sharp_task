@@ -25,3 +25,10 @@
     }
     return result;
 }
+
+// string[] array = ["Russia", "Denmark", "Kazan"];
+string[] array = ["Hello", "2", "world", ":-)"];
+// string[] array = ["1234", "1567", "-2", "computer science"];
+string[] result = CreateLessThanThreeCharStringArray(array);
+Console.Write("[" + string.Join(", ", result) + "]");
+
